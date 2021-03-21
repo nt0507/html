@@ -2,42 +2,56 @@
 <html lang="ru">
   <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="outlines.css">
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,700|Old+Standard+TT&display=swap&subset=cyrillic" rel="stylesheet">
     <title>Портфолио Junior верстальщика</title>
   </head>
 
   <body>
+    
     <header class="page-header">
-     <div class="container">
-       </div>
+      <div class="container">
+        <a  href="mailto:mail.ru">nt0507@mail.ru</a>
+        <a  href="tel:+375 29 777 77 77">+375 29 777 77 77</a>
+      </div>
     </header>
 
     <section class="hero-image">
       <div class="container">
-      <h1 class="heading">Shliapik Anton</h1>
-      <p>Junior Front-ender</p>
+      <h1 class="heading">Anton Shliapik</h1>
+      <p>Junior front-ender))</p>
       </div>
     </section>
 
     <section class="intro">
       <div class="container">
-      <h2 class="subheading">HI, My name is Anton!!</h2>
-      <h3>Я инженер на сотню рублей<br>и больше я не получу<br> мне 35 и я до сих пор<br> не знаю чего хочу!!!)))</h3>
-      <p>Текст с парой слов о себе.</p>
-      <h3>Чем могу быть полезен</h3>
-      <p>Текст о том, чем могу быть полезен.</p>
-    </div>
+      <h2 class="subheading">My name is Anton</h2>
+      <figure class="user-image"><img src="/portfolio-step-1/files/myphoto.jpg" alt="random"></figure>
+      <div><h3>Пара слов о себе</h3>
+      <p>Я инженер на сотню рублей<br>и больше я не получу<br>мне 35 и я до сих пор<br>не знаю чего хочу!!!</p></div>
+      <div><h3>Чем могу быть полезен</h3>
+      <p>Текст о том, чем могу быть полезен.</p></div>
+      <div class="skills">
+        <h3>Мои навыки</h3>
+        <dl class="skills-list">
+          <dt class="skill-html">HTML</dt>
+          <dd class="level"><div style="width: 60%;">60%</div></dd>
+          <dt class="skill-css">CSS</dt>
+          <dd class="level"><div style="width: 40%;">40%</div></dd>
+
+      </div>
+      </div>
     </section>
 
     <section class="portfolio">
       <div class="container">
       <h2 class="subheading">Мои работы</h2>
-
+      <figure class="project-image">
+        <img src="files/project.jpg" width="928" height="536" alt="Cайт магазина товаров для дома">
+      </figure>
       <h3>Магазин товаров для дома</h3>
       <p>Мой первый сайт.</p>
-
+      <a class="button" href="/portfolio-step-1/source/project-gloevk/index.html">Страница сайта</a>
       <h3>Блог начинающего верстальщика</h3>
       <p>Статический блог про обучение HTML и CSS.</p>
       </div>
@@ -45,7 +59,8 @@
 
     <footer class="page-footer">
       <div class="container">
-      Контакты в подвале
+      <a class="footer-email" href="mailto:mail.ru">nt0507@mail.ru</a>
+      <a class="footer-phone" href="tel:+375 29 777 77 77">+375 29 777 77 77</a>
       </div>
     </footer>
   </body>
